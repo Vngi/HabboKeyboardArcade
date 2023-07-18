@@ -5,12 +5,12 @@ This Python script allows you to associate letter keys with specific positions o
 ## Installation
 
 1. Make sure you have Python installed on your system.
-2. Clone this repository or download the script file (`Snake.py`) to your local machine.
+2. Clone this repository or download the script file (`Snake.py and Snake.bat`) to your local machine.
 
 ## Dependencies
 
 The following Python packages are required:
-
+- these are auto installed for you when you run the .bat
 - `pyautogui`: Used for controlling the mouse and performing double-click actions.
 - `pynput`: Used for listening to keyboard events.
 
@@ -20,7 +20,7 @@ You can install the dependencies by running the following command:
 pip install pyautogui pynput
 
 
-##Usage
+## Usage
 Run the Snake.bat
 Click on the desired areas of the screen in the following order:
 
