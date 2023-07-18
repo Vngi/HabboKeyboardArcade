@@ -4,7 +4,7 @@ This Python script allows you to associate letter keys with specific positions o
 
 ## Installation
 
-1. Make sure you have Python installed on your system.
+1. Make sure you have Python installed on your system. It can be found here: https://www.python.org/downloads/
 2. Clone this repository or download the script file (`Snake.py and Snake.bat`) to your local machine.
 3. This depends on the verison you download WASD or Arrowkeys, however it's the same process!
 
