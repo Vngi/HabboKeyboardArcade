@@ -6,7 +6,8 @@ This Python script allows you to associate arrow keys with specific positions on
 
 1. Make sure you have Python installed on your system. It can be found here: https://www.python.org/downloads/
 2. Clone this repository or download the script file (`Snake.py and Snake.bat`) to your local machine.
-3. This depends on the verison you download WASD or Arrowkeys, however it's the same process!
+3. Place both them on your desktop, or you'll need to edit the snake.bat file! ( remove them from the folder ) place both files on the desktop.
+4. This depends on the verison you download WASD or Arrowkeys, however it's the same process!
 
 ## Dependencies
 
