@@ -1,6 +1,6 @@
-# Mouse Control with Letter Keys
+# Mouse Control with Arrow Keys
 
-This Python script allows you to associate letter keys with specific positions on the screen and perform double-click actions at those positions when the corresponding key is pressed. It utilizes the `pyautogui` and `pynput` libraries to control the mouse and listen for keyboard events.
+This Python script allows you to associate arrow keys with specific positions on the screen and perform double-click actions at those positions when the corresponding key is pressed. It utilizes the `pyautogui` and `pynput` libraries to control the mouse and listen for keyboard events.
 
 ## Installation
 
@@ -21,10 +21,10 @@ You can install the dependencies by running the following command:
 Run the Snake.bat
 Click on the desired areas of the screen in the following order:
 
-Click the position for 'W'
-Click the position for 'A'
-Click the position for 'S'
-Click the position for 'D'
-Once the positions are set, you can use the corresponding letter keys ('w', 'a', 's', 'd') to perform double-click actions at the associated positions on the screen.
+Click the position for 'UP'
+Click the position for 'LEFT'
+Click the position for 'Down'
+Click the position for 'Right'
+Once the positions are set, you can use the corresponding letter keys ('up', 'left', 'down', 'right') to perform double-click actions at the associated positions on the screen.
 
 To exit the script, simply close the terminal or press Ctrl+C.
