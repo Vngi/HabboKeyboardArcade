@@ -6,6 +6,7 @@ This Python script allows you to associate letter keys with specific positions o
 
 1. Make sure you have Python installed on your system.
 2. Clone this repository or download the script file (`Snake.py and Snake.bat`) to your local machine.
+3. This depends on the verison you download WASD or Arrowkeys, however it's the same process!
 
 ## Dependencies
 
@@ -17,10 +18,6 @@ The following Python packages are required:
 You can install the dependencies by running the following command:
 
 ```shell
-pip install pyautogui pynput
-
-
-## Usage
 Run the Snake.bat
 Click on the desired areas of the screen in the following order:
 
