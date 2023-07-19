@@ -57,9 +57,10 @@ You can install these packages by running the `install_packages()` function prov
    - Position for 'Drop Block'
 
 3. Use the following keyboard controls during gameplay:
+   - Arrow Key: up - rotates the block
    - Arrow keys: Move the tetromino block left, right, or down
-   - Shift key: Store the current tetromino block
-   - Spacebar: Instantly drop the current tetromino block
+   - Left Shift key: Instantly drop the current tetromino block
+   - Spacebar: Store the current tetromino block
 
 ## Contributing
 
