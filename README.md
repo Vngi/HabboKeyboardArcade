@@ -1,5 +1,5 @@
 # Mouse Control with Arrow Keys
-
+This script allows you to define screen positions by clicking on them and perform mouse clicks based on arrow key presses. It is compatible with both Windows and Mac.
 This Python script allows you to associate arrow keys with specific positions on the screen and perform double-click actions at those positions when the corresponding key is pressed. It utilizes the `pyautogui` and `pynput` libraries to control the mouse and listen for keyboard events.
 
 ## Installation
@@ -17,6 +17,26 @@ The following Python packages are required:
 - `pynput`: Used for listening to keyboard events.
 
 You can install the dependencies by running the following command:
+
+## Mac Instatlion: 
+
+Open a terminal and run the command python3 --version to check if Python is installed. If Python is not installed, you can download and install it from the official Python website (https://www.python.org/downloads/).
+
+## Prerequisites
+
+- Python 3 installed
+- Required packages: pyautogui, pynput
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+2. Install the required packages. Open a terminal and run the following commands:
+
+python3 -m pip install pyautogui
+python3 -m pip install pynput
+
+run in terminal python3 script.py ( make sure to put the right directory )
 
 ```shell
 Run the Snake.bat
