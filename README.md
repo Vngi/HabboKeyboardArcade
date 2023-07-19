@@ -1,51 +1,72 @@
-# Mouse Control with Arrow Keys
-This script allows you to define screen positions by clicking on them and perform mouse clicks based on arrow key presses. It is compatible with both Windows and Mac.
-This Python script allows you to associate arrow keys with specific positions on the screen and perform double-click actions at those positions when the corresponding key is pressed. It utilizes the `pyautogui` and `pynput` libraries to control the mouse and listen for keyboard events.
+##Notes
+- Make sure to place both the .bat and .py on your desktop! if you don't you must edit the .bat to the correct location of the .py file!
 
-## Installation
 
-1. Make sure you have Python installed on your system. It can be found here: https://www.python.org/downloads/
-2. Clone this repository or download the script file (`Snake.py and Snake.bat`) to your local machine.
-3. Place both them on your desktop, or you'll need to edit the snake.bat file! ( remove them from the folder ) place both files on the desktop.
-4. This depends on the verison you download WASD or Arrowkeys, however it's the same process!
+# Snake Game
 
-## Dependencies
-
-The following Python packages are required:
-- these are auto installed for you when you run the .bat
-- `pyautogui`: Used for controlling the mouse and performing double-click actions.
-- `pynput`: Used for listening to keyboard events.
-
-You can install the dependencies by running the following command:
-
-## Mac Instatlion: 
-
-Open a terminal and run the command python3 --version to check if Python is installed. If Python is not installed, you can download and install it from the official Python website (https://www.python.org/downloads/).
+This is a Python implementation of the Habbo Wired Arcade Snake. It utilizes the `pyautogui` and `pynput` libraries for controlling the game using mouse clicks and keyboard inputs.
 
 ## Prerequisites
 
-- Python 3 installed
-- Required packages: pyautogui, pynput
+Before running the game, ensure that the following packages are installed:
 
-## Installation
+- pyautogui
+- pynput
 
-1. Clone the repository to your local machine:
+You can install these packages by running the `install_packages()` function provided in the code.
 
-2. Install the required packages. Open a terminal and run the following commands:
+## Usage
 
-python3 -m pip install pyautogui
-python3 -m pip install pynput
+1. Run the script by executing the `snake.bat` file.
 
-run in terminal python3 script.py ( make sure to put the right directory )
+2. Click on the desired areas of the screen in the following order:
+   - Position for 'up'
+   - Position for 'left'
+   - Position for 'down'
+   - Position for 'right'
 
-```shell
-Run the Snake.bat
-Click on the desired areas of the screen in the following order:
+3. Use the arrow keys on your keyboard to control the snake's movement:
+   - Up Arrow: Move the snake up
+   - Left Arrow: Move the snake left
+   - Down Arrow: Move the snake down
+   - Right Arrow: Move the snake right
 
-Click the position for 'UP'
-Click the position for 'LEFT'
-Click the position for 'Down'
-Click the position for 'Right'
-Once the positions are set, you can use the corresponding letter keys ('up', 'left', 'down', 'right') to perform double-click actions at the associated positions on the screen.
+# Tetris
 
-To exit the script, simply close the terminal or press Ctrl+C.
+This is a Python implementation of the Habbo Wired Arcade Tetris. It utilizes the `pyautogui` and `pynput` libraries for controlling the game using mouse clicks and keyboard inputs.
+
+## Prerequisites
+
+Before running the game, ensure that the following packages are installed:
+
+- pyautogui
+- pynput
+
+You can install these packages by running the `install_packages()` function provided in the code.
+
+## Usage
+
+1. Run the script by executing the `tetris.py` file.
+
+2. Click on the desired areas of the screen in the following order:
+   - Position for 'Middle Tile'
+   - Position for 'Left Arrow'
+   - Position for 'Down Arrow'
+   - Position for 'Right Arrow'
+   - Position for 'Store Block'
+   - Position for 'Drop Block'
+
+3. Use the following keyboard controls during gameplay:
+   - Arrow keys: Move the tetromino block left, right, or down
+   - Shift key: Store the current tetromino block
+   - Spacebar: Instantly drop the current tetromino block
+
+## Contributing
+
+Contributions to improve the game are welcome. If you encounter any issues or have suggestions, feel free to submit them through the repository's issue tracker.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+
